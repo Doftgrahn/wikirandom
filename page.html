@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>WikiRandom</title>
+
+  <link rel="stylesheet" href="page.css">
+  <script src="script.js" charset="utf-8"></script>
+
+</head>
+
+<header>
+
+  <h1> WikiRandom</h1>
+  <img src="wiki.svg.png" id="wikiPic" alt="">
+
+</header>
+
+<main>
+
+
+
+  <input type="text" name="wiki" id="search" placeholder="Enter a search item!">
+
+  <button type="button" name="random" id="input">Press me!</button>
+
+
+
+
+
+</main>
+
+<ul id="wikis">
+  <div id="no-input">
+    <div class="alert alert-danger alert-dismissable">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong id="error"></strong>
+    </div>
+  </div>
+  <div class="list-group">
+    <a href="https://en.wikipedia.org/wiki/Special:Random" class="list-group-item" target="_blank">
+      <h4 class="list-group-item-heading">Click here for a Random Article</h4>
+    </a><br />
+    <div id="results">
+      <!--All the results appear here-->
+    </div>
+  </div>
+</ul>
+
+
+
+<footer></footer>
+
+
+
+
+<body>
+
+</body>
+
+</html>

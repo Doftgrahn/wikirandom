@@ -1,0 +1,74 @@
+/*
+#F06449
+#EDE6E3
+#DADAD9
+#36382E
+#5BC3EB
+
+
+*/
+html {
+  height: 100%;
+   box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+header {
+  height: 200px;
+  background-color: #EDE6E3;
+}
+
+h1 {
+  color:#F06449;
+  margin: 0;
+  position: relative;
+  left: 40%;
+  top: 40%;
+  letter-spacing: 5px;
+}
+
+#wikiPic {
+  height: 100px;
+  width: 120px;
+  float: right;
+  margin: 50px;
+}
+
+main {
+  background-color: #36382E;
+  height:440px;
+}
+
+footer{
+  background-color: #5BC3EB;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+#search {
+  position: relative;
+  height:2em;
+  width:400px;
+  left:500px;
+  border-radius: 20px;
+  background-color: #DADAD9;
+  font-size:25px;
+
+}
+
+#input {
+  position: relative;
+  width:400px;
+  height:50px;
+  top:60px;
+  left:90px;
+  border-radius:20px;
+  font-size:25px;
+}
+
+ul {
+  
+}
